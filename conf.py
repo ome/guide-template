@@ -198,7 +198,7 @@ latex_elements = {
 project_basename = project.replace(" ", "")
 base_doc = "%s Documentation" % project
 latex_documents = [
-  ('index', latex_basename + '.tex', latex_doc,
+  ('index', project_basename + '.tex', base_doc,
    u'Open Microscopy Environment', 'manual'),
 ]
 
