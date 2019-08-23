@@ -6,4 +6,4 @@ If you are unfamiliar with Sphinx, we recommend that you first read
 
 When creating a new repository, this template could be used.
 
-The value in ``conf.py`` should be replaced by the name of your project.
+The values in ``docs/conf.py`` should be replaced by the name of your project.
