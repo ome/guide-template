@@ -1,3 +1,12 @@
+# Builds the Sphinx documentation in the specified folder.
+# Default values are docs/ for the directory where the Sphinx
+# documentation is located and true to run linkcheck
+# To pass a new folder, set directory_path to the folder path
+# Pass the arguments you wish to run, default command is make clean html linkcheck
+
+---
+name: sphinx
+
 on: 
   push:
   pull_request:
